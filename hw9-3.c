@@ -20,7 +20,7 @@ int main() {
     //Print the first matrix
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 3; j++) {
-            printf("%.1lf ", a[i][j]);
+            printf("%lf ", a[i][j]);
         }
         printf("\n");
     }
@@ -29,7 +29,7 @@ int main() {
 
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 2; j++) {
-            printf("%.1lf ", b[i][j]);
+            printf("%lf ", b[i][j]);
         }
         printf("\n");
     }
@@ -46,10 +46,11 @@ int main() {
 
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
-            printf("%.1lf ", c[i][j]);
+            printf("%lf ", c[i][j]);
         }
         printf("\n");
     }
 }
+
 
 
